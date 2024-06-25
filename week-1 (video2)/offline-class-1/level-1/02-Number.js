@@ -1,3 +1,4 @@
+
 function explainParseInt(value) {
   console.log("Original Value:", value);
   let result = parseInt(value);
@@ -11,7 +12,7 @@ explainParseInt("3.14");
 
 function explainParseFloat(value) {
   console.log("Original Value:", value);
-  let result = parseFloat(value);
+  let result = parseFloat(value); 
   console.log("After parseFloat:", result);
 }
 
@@ -19,3 +20,14 @@ function explainParseFloat(value) {
 explainParseFloat("3.14");
 explainParseFloat("42");
 explainParseFloat("42px");
+
+
+//these are global functions
+console.log(parseInt("3300"));
+console.log(parseInt("3300pxxxx"));
+console.log(parseInt("3300.43"));
+console.log(parseInt("3300"));
+console.log(parseFloat("3300"));
+console.log(parseFloat("3300pxxxx"));
+console.log(parseFloat("3300.43"));
+console.log(parseFloat("3300"));

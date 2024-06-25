@@ -10,3 +10,6 @@ class Animal {
 }
 
 
+const dog = {
+  
+}
